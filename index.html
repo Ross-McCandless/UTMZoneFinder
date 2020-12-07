@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTMZoneFinder</title>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel="stylesheet" type='text/css' href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" type='text/css'
+        href="https://unpkg.com/esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet-src.js"></script>
+    <script src="https://unpkg.com/esri-leaflet"></script>
+    <script src="https://unpkg.com/esri-leaflet-geocoder"></script>
+    <script src="UTMZones.geojson"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+</head>
+
+<body>
+    <div id="mapid"></div>
+    <button id="clearAllButton" onclick="clearAll()">Clear Map</button>
+    <script async src='js/main.js'></script>
+</body>
+
+</html>
